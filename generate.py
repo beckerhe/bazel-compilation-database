@@ -30,7 +30,7 @@ import sys
 import tempfile
 
 
-_BAZEL = os.getenv("BAZEL_COMPDB_BAZEL_PATH") or "bazel"
+_BAZEL = os.getenv("BAZEL_COMPDB_BAZEL_PATH") or "bazelisk"
 
 _OUTPUT_GROUPS = "compdb_files,header_files"
 
